@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    color: #E1E1E6;
+}
+
+#app {
+    border: none;
+}
+
+a {
+    color: #C4C4CC;
+    text-decoration: none;
+    font-size: 2.4rem;
+    cursor: pointer;
+}
+
+.selected {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+body {
+    padding: 4rem 4rem 7rem 7rem;
+    background-size: cover;
+
+    height: 100vh;
+
+}
+
+.bg1{
+    background-image: url(images/home.png);
+}
+
+.bg2 {
+    background-image: url(images/explorar.png);
+}
+
+.bg3 {
+    background-image: url(images/universo.png);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2.4rem;
+    min-height: 80vh;
+}
+
+main h1 {
+    font-size: 4.8rem;
+}
+
+main p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.text {
+    align-items: flex-start;
+    width: 40%;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    background: transparent;
+    color: #E1E1E6;
+
+    border: 2px solid white;
+    border-radius: 5px;
+
+    width: 19.5rem;
+    height: 4.8rem;
+
+    cursor: pointer;
+}
+
+button:hover {
+    color: #C4C4CC;
+    border: 2px solid #C4C4CC;
+}
